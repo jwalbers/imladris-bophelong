@@ -1,0 +1,22 @@
+---
+# Mohales Hoek — TB Elimination Programme (MH)
+# District: Mohale's Hoek | Type: Specialised Programme
+# Devices: 3 (CR-MH-01 OR Technology PXM-20BT Plus, US-MH-01 Butterfly iQ3/24170152, US-MH-02 Butterfly iQ3/24190536)
+# Note: Butterfly iQ3 units listed under "X-ray" department in source inventory; actual modality is US.
+
+webapp_name: openmrs
+site_domain: mohaleshoek-tb.imladris.local
+server_timezone: Africa/Maseru
+package_name: pihlesotho
+pih_config: lesotho,lesotho-mohaleshoek-tb
+
+mysql_root_password: ENC[PLACEHOLDER]
+mysql_innodb_buffer_pool_size: 2G
+mysql_innodb_buffer_pool_instances: 2
+openmrs_db_password: ENC[PLACEHOLDER]
+
+java_memory_parameters: '-Xmx4G -Xms2G'
+backup_file_prefix: mohaleshoek-tb
+az_backup_folder_path: lesotho/mohaleshoek-tb
+
+remote_zlidentifier_url: 'http://bophelong.imladris.local/openmrs/module/idgen/exportIdentifiers.form?source=1&comment=mohaleshoek-tb'

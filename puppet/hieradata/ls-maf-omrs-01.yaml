@@ -1,0 +1,21 @@
+---
+# STUB: Mafeteng Urban Clinic
+# District: Mafeteng | Type: High Volume Clinic
+# Modalities: 2 (CR-MAF-01, US-MAF-01)
+
+webapp_name: openmrs
+site_domain: mafeteng.imladris.local
+server_timezone: Africa/Maseru
+package_name: pihlesotho
+pih_config: lesotho,lesotho-mafeteng
+
+mysql_root_password: ENC[PLACEHOLDER]
+mysql_innodb_buffer_pool_size: 2G
+mysql_innodb_buffer_pool_instances: 2
+openmrs_db_password: ENC[PLACEHOLDER]
+
+java_memory_parameters: '-Xmx4G -Xms2G'
+backup_file_prefix: mafeteng
+az_backup_folder_path: lesotho/mafeteng
+
+remote_zlidentifier_url: 'http://bophelong.imladris.local/openmrs/module/idgen/exportIdentifiers.form?source=1&comment=mafeteng'

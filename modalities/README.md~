@@ -1,0 +1,79 @@
+# Modalities — Bophelong Health Network
+
+44 DICOM modalities across 18 sites. One sidecar per site; AETs configured per modality at each site.
+
+## Allocation
+
+### Hospitals
+
+| AET | Modality | Site | Type |
+|-----|----------|------|------|
+| CR-BOP-01 | CR | Bophelong MDR-TB Hospital | Chest X-ray room 1 |
+| CR-BOP-02 | CR | Bophelong MDR-TB Hospital | Chest X-ray room 2 |
+| US-BOP-01 | US | Bophelong MDR-TB Hospital | Ultrasound room 1 |
+| US-BOP-02 | US | Bophelong MDR-TB Hospital | Ultrasound room 2 |
+| US-BOP-03 | US | Bophelong MDR-TB Hospital | Ultrasound — cardiac |
+| CT-BOP-01 | CT | Bophelong MDR-TB Hospital | CT scanner |
+| MR-BOP-01 | MR | Bophelong MDR-TB Hospital | MRI |
+| FL-BOP-01 | RF | Bophelong MDR-TB Hospital | Fluoroscopy |
+| CR-MOT-01 | CR | Motebang General Hospital | Chest X-ray room 1 |
+| CR-MOT-02 | CR | Motebang General Hospital | Chest X-ray room 2 |
+| US-MOT-01 | US | Motebang General Hospital | Ultrasound room 1 |
+| US-MOT-02 | US | Motebang General Hospital | Ultrasound room 2 |
+| CT-MOT-01 | CT | Motebang General Hospital | CT scanner |
+| MR-MOT-01 | MR | Motebang General Hospital | MRI |
+
+### Rural Clinics (2 modalities each)
+
+| AET | Modality | Site |
+|-----|----------|------|
+| CR-NKAU-01 | CR | Nkau Health Centre |
+| US-NKAU-01 | US | Nkau Health Centre |
+| CR-SEM-01 | CR | Semonkong Health Centre |
+| US-SEM-01 | US | Semonkong Health Centre |
+| CR-BOB-01 | CR | Bobete Health Centre |
+| US-BOB-01 | US | Bobete Health Centre |
+| CR-HLJ-01 | CR | Ha Lejone Clinic |
+| US-HLJ-01 | US | Ha Lejone Clinic |
+| CR-PHA-01 | CR | Phamong Clinic |
+| US-PHA-01 | US | Phamong Clinic |
+| CR-MOK-01 | CR | Mokhotlong Health Post |
+| US-MOK-01 | US | Mokhotlong Health Post |
+| CR-QAC-01 | CR | Qacha's Nek Rural Clinic |
+| US-QAC-01 | US | Qacha's Nek Rural Clinic |
+
+### High Volume Clinics (2 modalities each)
+
+| AET | Modality | Site |
+|-----|----------|------|
+| CR-MAF-01 | CR | Mafeteng Urban Clinic |
+| US-MAF-01 | US | Mafeteng Urban Clinic |
+| CR-TEY-01 | CR | Teyateyaneng Health Centre |
+| US-TEY-01 | US | Teyateyaneng Health Centre |
+| CR-MOH-01 | CR | Mohale's Hoek Urban Clinic |
+| US-MOH-01 | US | Mohale's Hoek Urban Clinic |
+| CR-BUT-01 | CR | Butha-Buthe Urban Clinic |
+| US-BUT-01 | US | Butha-Buthe Urban Clinic |
+| CR-MAP-01 | CR | Maputsoe Clinic |
+| US-MAP-01 | US | Maputsoe Clinic |
+| CR-MSE-01 | CR | Maseru East Clinic |
+| US-MSE-01 | US | Maseru East Clinic |
+| CR-HLO-01 | CR | Hlotse Health Centre |
+| US-HLO-01 | US | Hlotse Health Centre |
+
+### Mobile Units (1 modality each — portable ultrasound)
+
+| AET | Modality | Site |
+|-----|----------|------|
+| US-MAL-01 | US | Maluti Mobile Unit |
+| US-SEN-01 | US | Senqu Mobile Unit |
+
+## Totals
+
+| Category | Sites | Modalities |
+|----------|-------|------------|
+| Hospitals | 2 | 14 |
+| Rural Clinics | 7 | 14 |
+| High Volume Clinics | 7 | 14 |
+| Mobile Units | 2 | 2 |
+| **Total** | **18** | **44** |

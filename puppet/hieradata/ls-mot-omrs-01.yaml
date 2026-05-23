@@ -1,0 +1,21 @@
+---
+# STUB: Motebang General Hospital
+# District: Leribe | Type: Hospital (satellite)
+# Modalities: 6 (CR-MOT-01, CR-MOT-02, US-MOT-01, US-MOT-02, CT-MOT-01, MR-MOT-01)
+
+webapp_name: openmrs
+site_domain: motebang.imladris.local
+server_timezone: Africa/Maseru
+package_name: pihlesotho
+pih_config: lesotho,lesotho-motebang
+
+mysql_root_password: ENC[PLACEHOLDER]
+mysql_innodb_buffer_pool_size: 4G
+mysql_innodb_buffer_pool_instances: 4
+openmrs_db_password: ENC[PLACEHOLDER]
+
+java_memory_parameters: '-Xmx6G -Xms4G'
+backup_file_prefix: motebang
+az_backup_folder_path: lesotho/motebang
+
+remote_zlidentifier_url: 'http://bophelong.imladris.local/openmrs/module/idgen/exportIdentifiers.form?source=1&comment=motebang'

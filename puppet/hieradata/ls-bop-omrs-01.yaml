@@ -1,0 +1,41 @@
+---
+# Bophelong MDR-TB Hospital — Network Hub
+# District: Maseru | Type: Hospital (MDR-TB referral centre)
+# Modalities: 8 (CR-BOP-01, CR-BOP-02, US-BOP-01, US-BOP-02, US-BOP-03, CT-BOP-01, MR-BOP-01, FL-BOP-01)
+
+webapp_name: bophelong
+site_domain: bophelong.imladris.local
+server_timezone: Africa/Maseru
+
+package_name: pihlesotho
+package_version: 2.1.0-SNAPSHOT
+
+config_name: pihlesotho-config
+config_version: 2.1.0-SNAPSHOT
+
+maven_openmrs_distribution_repo: https://openmrs.jfrog.io/artifactory/public
+maven_config_repo: https://openmrs.jfrog.io/artifactory/public
+maven_config_group_id: org.openmrs.module
+maven_package_group_id: org.openmrs.distro
+
+pih_config: lesotho,lesotho-bophelong
+
+tomcat_enable_http_8080: true
+tomcat_enable_ajp_8009: false
+session_timeout: 120
+
+# Hub sizing — central OpenMRS for all 18 sites
+mysql_root_password: ENC[oWqIfmn/ER4CYIvjJSpIzQ==]
+mysql_innodb_buffer_pool_size: 6G
+mysql_innodb_buffer_pool_instances: 8
+openmrs_db_password: ENC[PLACEHOLDER]
+openmrs_auto_update_database: true
+
+openmrs_percona_backup_enabled: true
+openmrs_percona_install_mode: docker
+backup_file_prefix: bophelong
+az_backup_folder_path: lesotho/bophelong
+
+java_memory_parameters: '-Xmx8G -Xms6G -XX:+CMSClassUnloadingEnabled -XX:+UseConcMarkSweepGC'
+
+# Hub IS the patient identifier source — no remote_zlidentifier_url

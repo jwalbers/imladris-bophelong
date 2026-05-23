@@ -1,0 +1,3 @@
+[submodule "basotho"]
+	path = basotho
+	url = git@github.com:jwalbers/imladris-basotho.git

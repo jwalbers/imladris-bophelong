@@ -1,0 +1,21 @@
+---
+# STUB: Bobete Health Centre
+# District: Thaba-Tseka | Type: Rural Clinic
+# Modalities: 2 (CR-BOB-01, US-BOB-01)
+
+webapp_name: openmrs
+site_domain: bobete.imladris.local
+server_timezone: Africa/Maseru
+package_name: pihlesotho
+pih_config: lesotho,lesotho-bobete
+
+mysql_root_password: ENC[PLACEHOLDER]
+mysql_innodb_buffer_pool_size: 2G
+mysql_innodb_buffer_pool_instances: 2
+openmrs_db_password: ENC[PLACEHOLDER]
+
+java_memory_parameters: '-Xmx4G -Xms2G'
+backup_file_prefix: bobete
+az_backup_folder_path: lesotho/bobete
+
+remote_zlidentifier_url: 'http://bophelong.imladris.local/openmrs/module/idgen/exportIdentifiers.form?source=1&comment=bobete'

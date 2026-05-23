@@ -1,0 +1,21 @@
+---
+# STUB: Qacha's Nek Rural Clinic
+# District: Qacha's Nek | Type: Rural Clinic
+# Modalities: 2 (CR-QAC-01, US-QAC-01)
+
+webapp_name: openmrs
+site_domain: qachasnek.imladris.local
+server_timezone: Africa/Maseru
+package_name: pihlesotho
+pih_config: lesotho,lesotho-qachasnek
+
+mysql_root_password: ENC[PLACEHOLDER]
+mysql_innodb_buffer_pool_size: 2G
+mysql_innodb_buffer_pool_instances: 2
+openmrs_db_password: ENC[PLACEHOLDER]
+
+java_memory_parameters: '-Xmx4G -Xms2G'
+backup_file_prefix: qachasnek
+az_backup_folder_path: lesotho/qachasnek
+
+remote_zlidentifier_url: 'http://bophelong.imladris.local/openmrs/module/idgen/exportIdentifiers.form?source=1&comment=qachasnek'

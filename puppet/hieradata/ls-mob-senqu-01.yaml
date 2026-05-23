@@ -1,0 +1,21 @@
+---
+# STUB: Senqu Mobile Unit
+# Route: Southern mountain districts | Type: Mobile Clinic
+# Modalities: 1 (US-SEN-01 — portable ultrasound)
+
+webapp_name: openmrs
+site_domain: senqu-mobile.imladris.local
+server_timezone: Africa/Maseru
+package_name: pihlesotho
+pih_config: lesotho,lesotho-mobile
+
+mysql_root_password: ENC[PLACEHOLDER]
+mysql_innodb_buffer_pool_size: 1G
+mysql_innodb_buffer_pool_instances: 1
+openmrs_db_password: ENC[PLACEHOLDER]
+
+java_memory_parameters: '-Xmx2G -Xms1G'
+backup_file_prefix: senqu-mobile
+az_backup_folder_path: lesotho/senqu-mobile
+
+remote_zlidentifier_url: 'http://bophelong.imladris.local/openmrs/module/idgen/exportIdentifiers.form?source=1&comment=senqu-mobile'

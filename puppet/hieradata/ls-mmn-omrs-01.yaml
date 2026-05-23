@@ -1,0 +1,23 @@
+---
+# Manemaneng Clinic (MMN)
+# District: Berea | Type: Rural Clinic
+# Source inventory uses two abbreviations (MHC and MMC) for this site; standardised to MMN here.
+# Devices: 5 (CR-MMN-01 MinXray TR90BH/46604, CR-MMN-02 MinXray TR90BH/46617,
+#              CR-MMN-03 Siemens 8620002, US-MMN-MCH-01 Butterfly iQ3, US-MMN-MCH-02 Butterfly iQ+)
+
+webapp_name: openmrs
+site_domain: manemaneng.imladris.local
+server_timezone: Africa/Maseru
+package_name: pihlesotho
+pih_config: lesotho,lesotho-manemaneng
+
+mysql_root_password: ENC[PLACEHOLDER]
+mysql_innodb_buffer_pool_size: 2G
+mysql_innodb_buffer_pool_instances: 2
+openmrs_db_password: ENC[PLACEHOLDER]
+
+java_memory_parameters: '-Xmx4G -Xms2G'
+backup_file_prefix: manemaneng
+az_backup_folder_path: lesotho/manemaneng
+
+remote_zlidentifier_url: 'http://bophelong.imladris.local/openmrs/module/idgen/exportIdentifiers.form?source=1&comment=manemaneng'

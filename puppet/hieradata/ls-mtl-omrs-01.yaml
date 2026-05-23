@@ -1,0 +1,22 @@
+---
+# Methalaneng Clinic (MLC)
+# District: Thaba-Tseka | Type: Rural Clinic
+# Note: serial 46604 (MinXray) and BT21130623 (Butterfly) shared with Manemaneng in source inventory — data quality issue.
+# Devices: 3 (CR-MLC-01 MinXray TR90BH, US-MLC-MCH-01 Fujifilm Sonosite P04969-01A, US-MLC-MCH-02 Butterfly iQ3/iQ+)
+
+webapp_name: openmrs
+site_domain: methalaneng.imladris.local
+server_timezone: Africa/Maseru
+package_name: pihlesotho
+pih_config: lesotho,lesotho-methalaneng
+
+mysql_root_password: ENC[PLACEHOLDER]
+mysql_innodb_buffer_pool_size: 2G
+mysql_innodb_buffer_pool_instances: 2
+openmrs_db_password: ENC[PLACEHOLDER]
+
+java_memory_parameters: '-Xmx4G -Xms2G'
+backup_file_prefix: methalaneng
+az_backup_folder_path: lesotho/methalaneng
+
+remote_zlidentifier_url: 'http://bophelong.imladris.local/openmrs/module/idgen/exportIdentifiers.form?source=1&comment=methalaneng'

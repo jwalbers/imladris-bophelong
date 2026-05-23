@@ -1,0 +1,21 @@
+---
+# Tihanyaku Clinic (TNC)
+# District: Mohale's Hoek | Type: Rural Clinic
+# Devices: 3 (CR-TNC-01 Siemens 5510, CR-TNC-02 Fujifilm XD2000 PX, US-TNC-MCH-01 Fujifilm Titan)
+
+webapp_name: openmrs
+site_domain: tihanyaku.imladris.local
+server_timezone: Africa/Maseru
+package_name: pihlesotho
+pih_config: lesotho,lesotho-tihanyaku
+
+mysql_root_password: ENC[PLACEHOLDER]
+mysql_innodb_buffer_pool_size: 2G
+mysql_innodb_buffer_pool_instances: 2
+openmrs_db_password: ENC[PLACEHOLDER]
+
+java_memory_parameters: '-Xmx4G -Xms2G'
+backup_file_prefix: tihanyaku
+az_backup_folder_path: lesotho/tihanyaku
+
+remote_zlidentifier_url: 'http://bophelong.imladris.local/openmrs/module/idgen/exportIdentifiers.form?source=1&comment=tihanyaku'

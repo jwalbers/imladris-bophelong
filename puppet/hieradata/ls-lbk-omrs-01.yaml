@@ -1,0 +1,21 @@
+---
+# Lebakeng Clinic (LKC)
+# District: Maseru (remote mountain) | Type: Rural Clinic
+# Devices: 4 (CR-LKC-01 Siemens 5510, CR-LKC-02 Fujifilm XD2000 PX, US-LKC-MCH-01 Butterfly iQ3, US-LKC-MCH-02 Fujifilm Sonosite P08189-91R)
+
+webapp_name: openmrs
+site_domain: lebakeng.imladris.local
+server_timezone: Africa/Maseru
+package_name: pihlesotho
+pih_config: lesotho,lesotho-lebakeng
+
+mysql_root_password: ENC[PLACEHOLDER]
+mysql_innodb_buffer_pool_size: 2G
+mysql_innodb_buffer_pool_instances: 2
+openmrs_db_password: ENC[PLACEHOLDER]
+
+java_memory_parameters: '-Xmx4G -Xms2G'
+backup_file_prefix: lebakeng
+az_backup_folder_path: lesotho/lebakeng
+
+remote_zlidentifier_url: 'http://bophelong.imladris.local/openmrs/module/idgen/exportIdentifiers.form?source=1&comment=lebakeng'
