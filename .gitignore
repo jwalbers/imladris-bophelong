@@ -1,0 +1,15 @@
+# Editor backups
+*~
+*.bak
+~$*
+
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Office temp files (already-committed ~$ files should be removed)
