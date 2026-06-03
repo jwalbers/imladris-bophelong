@@ -7,6 +7,7 @@ Writes to:  ./dicom/
 Changes applied:
   - InstitutionName        → "Bophelong MDR-TB Hospital"
   - SourceApplicationEntityTitle → "IML_CR_01" (CR) or "IML_US_01" (US)
+  - AccessionNumber        → "BPH-{PatientID}" (dummy; sidecar overwrites with real value)
   - Fresh Study/Series/SOP Instance UIDs (avoids collision with old Orthanc data)
 
 Patient identity (name, ID, DOB, sex) is preserved unchanged.
@@ -33,6 +34,7 @@ def retag(src_file: pathlib.Path, dest_file: pathlib.Path, aet: str) -> None:
     ds = pydicom.dcmread(str(src_file))
 
     ds.InstitutionName = INSTITUTION
+    ds.AccessionNumber = f"BPH-{ds.PatientID}"
 
     if not hasattr(ds, "file_meta") or ds.file_meta is None:
         ds.file_meta = pydicom.Dataset()
