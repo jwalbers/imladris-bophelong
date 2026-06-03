@@ -60,3 +60,336 @@ sites/             Per-site fact sheets
 |------|------|
 | `imladris` | Lab platform: Docker stack, DICOM sim, HL7 bridge, AdvaPACS integration, E2E test runner |
 | `imladris-basotho` | Patient population + single-site E2E fixture (submoduled here) |
+
+
+## Synching with gcloud
+
+```
+gcloud storage rsync -r patients/dicom/xray            gs://botsabelo-hospital-records/bophelong_processed/xray
+gcloud storage rsync -r patients/dicom/ultrasound_cine gs://botsabelo-hospital-records/bophelong_processed/ultrasound_cine
+```
+
+## AdvaPACS user permissions
+
+Application Entities
+
+Manage Local Application Entity
+
+Manage Remote Application Entity
+
+View Local Application Entity
+
+View Remote Application Entity
+
+Auditing
+
+View Audit Logs
+
+Billing
+
+Manage Billing Alert
+
+Manage Billing Detail
+
+View Bill
+
+View Billing Alert
+
+View Billing Detail
+
+Chat
+
+Access Chat
+
+Clinician Portal
+
+Explicit Access Grant
+
+Manage Clinician Portal
+
+Configuration
+
+Manage Compression Rule
+
+Manage Data Set
+
+Manage Data Source
+
+Manage Immutable Storage Rules
+
+Manage Migration Job
+
+Manage Prefetching Rule
+
+Manage Routing Rule
+
+Manage Study Tag Rule
+
+Manage Task Configuration
+
+Manage Transform Rule
+
+Manage Upload Rule
+
+Manage Webhooks
+
+View Compression Rule
+
+View Data Set
+
+View Data Source
+
+View Immutable Storage Rules
+
+View Migration Job
+
+View Prefetching Rule
+
+View Routing Rule
+
+View Study Tag Rule
+
+View Task Configuration
+
+View Transform Rule
+
+View Upload Rule
+
+View Webhooks
+
+Data
+
+Manage Code Management
+
+Manage Code Systems
+
+Manage Custom Fields
+
+Manage ID Sequences
+
+Manage Practitioners
+
+View Code Management
+
+View Code Systems
+
+View Custom Fields
+
+View ID Sequences
+
+View Practitioners
+
+Documents
+
+Manage Document
+
+Manage Sensitive Document
+
+View Document
+
+View Sensitive Document
+
+Gateways
+
+Manage Gateway
+
+Regenerate Gateway Authentication Key
+
+View Gateway
+
+View Gateway Logs
+
+HL7
+
+Manage HL7 Message Log
+
+Manage HL7 Service
+
+View HL7 Message Log
+
+View HL7 Service
+
+Integrations
+
+Access Zed Portal
+
+Monitoring
+
+Manage Image Lifecycle Management Monitor
+
+Manage Retrieve Queue
+
+Manage Routing Queue
+
+Manage Upload Queue
+
+View Association Monitor
+
+View Image Lifecycle Management Monitor
+
+View Incoming Queue
+
+View Retrieve Queue
+
+View Routing Queue
+
+View Upload Queue
+
+Notes
+
+Delete All Notes
+
+Delete Own Note
+
+Manage All Notes
+
+Manage Own Note
+
+View Notes
+
+Orders
+
+Manage Order
+
+View Order
+
+Organisations
+
+Manage Organisation
+
+View Organisation
+
+Patient Portal
+
+Manage Patient Portal
+
+Patients
+
+Manage Patient
+
+View Patient
+
+Payments
+
+Manage Payment Methods
+
+Pay Invoice
+
+View Payment
+
+View Payment Methods
+
+Query Retrieve
+
+Query Retrieve
+
+Reports
+
+Manage Report
+
+View Report
+
+Settings
+
+Manage API Key
+
+Manage Assigning Authorities
+
+Manage Authentication
+
+Manage Feature Visibility
+
+Manage General Settings
+
+Manage Latency Cache Settings
+
+Manage Security
+
+View Authentication
+
+Studies
+
+Audit Study
+
+Change Study Availability
+
+Delete Study
+
+Delete Study Requiring Validation
+
+Download Study
+
+Edit Study
+
+Manage Sensitive Study
+
+Manage Study Storage Class
+
+Move Study
+
+Share Study
+
+Upload Study
+
+Validate Study Requiring Validation
+
+View Sensitive Study
+
+View Study
+
+View Study Image
+
+View Study Requiring Validation
+
+Tasks
+
+Delete All Tasks
+
+Delete Own Task
+
+Manage All Tasks
+
+Manage Own Task
+
+View All Tasks
+
+View Own Task
+
+Users
+
+Impersonate User
+
+Manage Role
+
+Manage User
+
+Manage User Group
+
+View Audit Tool
+
+View Role
+
+View User
+
+View User Group
+
+Viewer
+
+Manage All Settings
+
+Manage Group Settings
+
+Manage Own Settings
+
+View All Settings
+
+Save Artifacts
+
+View Group Settings
+
+View Own Settings
+
+Worklist
+
+Access Worklist
+© 2026 AdvaPACS by AdvaHealth Solutions
