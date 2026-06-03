@@ -13,3 +13,6 @@
 *.swo
 
 # Office temp files (already-committed ~$ files should be removed)
+
+# DICOM patient data — large binary files, stored in GCS and synced locally
+patients/dicom/
