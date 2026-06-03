@@ -393,3 +393,275 @@ Worklist
 
 Access Worklist
 © 2026 AdvaPACS by AdvaHealth Solutions
+
+
+
+── Other Privileges ──
+
+
+
+
+
+App Privileges
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Task Privileges
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+EMR - Other Privileges
+
+
+PACS - Application Entities
+
+
+
+
+PACS - Auditing
+
+PACS - Billing
+
+
+
+
+
+PACS - Chat
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PACS - Data
+
+
+
+
+
+
+
+
+
+
+PACS - Documents
+
+
+
+
+
+
+
+
+
+PACS - HL7
+
+
+
+
+PACS - Integrations
+
+PACS - Monitoring
+
+
+
+
+
+
+
+
+
+
+PACS - Notes
+
+
+
+
+
+PACS - Orders
+
+
+PACS - Organisations
+
+
+PACS - Patient Portal
+
+PACS - Patients
+
+
+PACS - Payments
+
+
+
+
+PACS - Query Retrieve
+
+PACS - Reports
+
+
+PACS - Settings
+
+
+
+
+
+
+
+
+PACS - Studies
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+PACS - Tasks
+
+
+
+
+
+
+PACS - Users
+
+
+
+
+
+
+
+
+PACS - Viewer
+
+
+
+
+
+
+
+PACS - Worklist
