@@ -16,3 +16,6 @@
 
 # DICOM patient data — large binary files, stored in GCS and synced locally
 patients/dicom/
+
+# Gateway credentials — store in .env, not in git
+gateway/advapacs-gateway.yml
